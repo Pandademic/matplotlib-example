@@ -16,4 +16,4 @@ zero = [[0,0,0,0,0,0,0,0,0,0],
         [0,0,0,0,0,0,0,0,0,0]]
 plt.imshow(zero,cmap="hot")
 plt.axis('off')
-plt.show()
+plt.savefig('result.png')
